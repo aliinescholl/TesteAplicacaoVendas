@@ -1,0 +1,183 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 377
+  ClientWidth = 716
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 483
+    Top = 287
+    Width = 76
+    Height = 13
+    Caption = 'Total da Venda:'
+  end
+  object Label2: TLabel
+    Left = 288
+    Top = 29
+    Width = 122
+    Height = 13
+    Caption = 'Adicionar produto com id:'
+  end
+  object Label3: TLabel
+    Left = 288
+    Top = 79
+    Width = 121
+    Height = 13
+    Caption = 'Remover produto com id:'
+  end
+  object Label4: TLabel
+    Left = 288
+    Top = 133
+    Width = 78
+    Height = 13
+    Caption = 'Nome do Cliente'
+  end
+  object Label5: TLabel
+    Left = 288
+    Top = 183
+    Width = 70
+    Height = 13
+    Caption = 'CPF do Cliente'
+  end
+  object Label6: TLabel
+    Left = 56
+    Top = 6
+    Width = 122
+    Height = 20
+    Caption = 'Lista de Produtos'
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = 20
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object DBGProdutos: TDBGrid
+    Left = 8
+    Top = 32
+    Width = 225
+    Height = 281
+    DataSource = DataSourceProdutos
+    TabOrder = 0
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'id'
+        Width = 23
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'desc'
+        Width = 103
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'preco'
+        Visible = True
+      end>
+  end
+  object DBGItens: TDBGrid
+    Left = 483
+    Top = 32
+    Width = 225
+    Height = 249
+    DataSource = DataSourceItens
+    TabOrder = 1
+    TitleFont.Charset = DEFAULT_CHARSET
+    TitleFont.Color = clWindowText
+    TitleFont.Height = -11
+    TitleFont.Name = 'Tahoma'
+    TitleFont.Style = []
+    Columns = <
+      item
+        Expanded = False
+        FieldName = 'id_produto'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'qtd'
+        Visible = True
+      end
+      item
+        Expanded = False
+        FieldName = 'preco'
+        Visible = True
+      end>
+  end
+  object edtIdProd: TEdit
+    Left = 288
+    Top = 48
+    Width = 137
+    Height = 21
+    TabOrder = 2
+    OnKeyPress = edtIdProdKeyPress
+  end
+  object Button2: TButton
+    Left = 288
+    Top = 291
+    Width = 137
+    Height = 33
+    Caption = 'Button2'
+    TabOrder = 3
+  end
+  object btnFinalizarVenda: TButton
+    Left = 288
+    Top = 251
+    Width = 137
+    Height = 34
+    Caption = 'Finalizar Venda'
+    TabOrder = 4
+    OnClick = btnFinalizarVendaClick
+  end
+  object edtCPFCliente: TEdit
+    Left = 288
+    Top = 202
+    Width = 137
+    Height = 21
+    TabOrder = 5
+    OnKeyPress = edtCPFClienteKeyPress
+  end
+  object Edit3: TEdit
+    Left = 288
+    Top = 98
+    Width = 137
+    Height = 21
+    TabOrder = 6
+  end
+  object edtNomeCliente: TEdit
+    Left = 288
+    Top = 152
+    Width = 137
+    Height = 21
+    TabOrder = 7
+    OnKeyPress = edtNomeClienteKeyPress
+  end
+  object DataSourceProdutos: TDataSource
+    DataSet = DataModule1.FDQryProdutos
+    Left = 48
+    Top = 328
+  end
+  object DataSourceItens: TDataSource
+    DataSet = DataModule1.FDQueryItens
+    Left = 488
+    Top = 328
+  end
+end

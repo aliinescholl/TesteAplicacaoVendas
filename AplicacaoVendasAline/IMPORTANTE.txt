@@ -1,0 +1,3 @@
+O banco de dados é criado ao abrir a aplicação
+Se não for criado, crie a pasta "base"
+no C: que deve resolver

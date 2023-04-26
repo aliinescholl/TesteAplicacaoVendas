@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/04/25 17:57:07.000.714,=C:\Users\jonat\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/25 17:57:42.000.783,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\UfrmPrincipal.dfm=C:\Users\jonat\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/04/25 17:57:42.000.783,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\UfrmPrincipal.pas=C:\Users\jonat\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/04/25 17:58:51.000.452,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\projeto\AplicacaoVendas.dproj=C:\Users\jonat\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/04/25 17:59:02.000.048,=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\projeto\Unit1.pas</Transaction>
+    <Transaction>2023/04/25 18:16:15.000.627,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\UfrmPrincipal2.pas=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/04/25 18:16:15.000.627,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\UfrmPrincipal2.dfm=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2023/04/25 18:16:23.000.908,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UfrmPrincipal.dfm=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\projeto\Unit1.dfm</Transaction>
+    <Transaction>2023/04/25 18:16:23.000.908,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UfrmPrincipal.pas=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\projeto\Unit1.pas</Transaction>
+    <Transaction>2023/04/25 18:17:05.000.020,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UdmModeloBanco.pas=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/04/25 18:17:05.000.020,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UdmModeloBanco.dfm=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UfrmPrincipal.dfm</Transaction>
+    <Transaction>2023/04/25 18:17:19.000.734,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\model\UdmModeloBanco.dfm=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UdmModeloBanco.dfm</Transaction>
+    <Transaction>2023/04/25 18:17:19.000.734,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\model\UdmModeloBanco.pas=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UdmModeloBanco.pas</Transaction>
+    <Transaction>2023/04/25 18:17:29.000.711,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UfrmPrincipal.pas=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\UfrmPrincipal2.pas</Transaction>
+    <Transaction>2023/04/25 18:17:29.000.711,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UfrmPrincipal.dfm=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\UfrmPrincipal2.dfm</Transaction>
+    <Transaction>2023/04/25 18:18:42.000.957,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\model\UdmModeloBanco.pas=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\model\UdmModeloBanco.pas</Transaction>
+    <Transaction>2023/04/25 18:18:42.000.957,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\model\UdmModeloBanco.dfm=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\model\UdmModeloBanco.dfm</Transaction>
+    <Transaction>2023/04/25 18:19:01.000.057,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\forms\UfrmPrincipal.pas=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UfrmPrincipal.pas</Transaction>
+    <Transaction>2023/04/25 18:19:01.000.057,C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\forms\UfrmPrincipal.dfm=C:\Users\jonat\OneDrive\Área de Trabalho\AplicacaoVendasAline\src\UfrmPrincipal.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
